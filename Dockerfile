@@ -13,7 +13,7 @@ COPY wisecow.sh /usr/local/bin/wisecow.sh
 # Make the script executable
 RUN chmod +x /usr/local/bin/wisecow.sh
 
-# Expose the port the service listens on
+# Expose the port the service listens 
 EXPOSE 4499
 
 # Run the script as the entry point
