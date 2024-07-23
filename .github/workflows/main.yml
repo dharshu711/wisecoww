@@ -42,7 +42,7 @@ jobs:
         echo "${{ secrets.KUBECONFIG }}" | base64 -d > ./kubeconfig.yml
         export KUBECONFIG=$PWD/kubeconfig.yml
 
-    - name: Deploy to Kubernetes
+    - name: Deploy to Kubernetes.
       run: |
         minikube start
         kubectl apply -f wisecow-deployment.yaml
