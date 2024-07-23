@@ -26,7 +26,7 @@ Deploy the wisecow application as a k8s app
 ## Expected Artifacts
 1. Github repo containing the app with corresponding dockerfile, k8s manifest, any other artifacts needed.
 2. Github repo with corresponding github action.
-3. Github repo should be kept private and the access should be enabled for following github IDs: nyrahul, SujithKasireddy, divyansh-accuknox
+3. Github repo should be kept private and the access should be enabled for following github IDs: nyrahul, SujithKasireddy.
 =======
 # wisecoww
 >>>>>>> 8193b585ab7cdbce12e1364eae431b2216b61426
