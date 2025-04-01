@@ -1,4 +1,4 @@
-# Use a specific base image version for consistency.
+# Use a specific base image version for consistency
 FROM ubuntu:20.04
 
 # Avoid prompts from apt
